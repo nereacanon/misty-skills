@@ -166,7 +166,7 @@ function _VoiceRecord(data) {
 function _GetAudioFile(data) {
     //misty.Debug(JSON.stringify(data)); // Check that audio is in Base64 encoding
     let base64 = data.Result.Base64;
-    let apikey = "";
+    let apikey = APIKEY;
   
     misty.SendExternalRequest("POST", 
          "https://speech.googleapis.com/v1p1beta1/speech:recognize?key=" + apikey, 
