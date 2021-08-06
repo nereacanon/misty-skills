@@ -1,0 +1,19 @@
+{
+  "Name": "welcome_to_lapipa",
+  "UniqueId": "e8132c75-1357-431e-b12d-42f8678088f7",
+  "Description": "Welcome message, female voice.",
+  "StartupRules": [
+    "Manual",
+    "Robot"
+  ],
+  "Language": "javascript",
+  "BroadcastMode": "verbose",
+  "TimeoutInSeconds": 600,
+  "CleanupOnCancel": true,
+  "WriteToLog": false,
+  "Parameters": {
+    "int": 10,
+    "double": 20.5,
+    "string": "twenty"
+  }
+}

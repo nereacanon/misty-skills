@@ -1,0 +1,19 @@
+{
+  "Name": "streaming",
+  "UniqueId": "f5aec5ba-880a-4b88-abea-2f8c1e3dec43",
+  "Description": "Streaming to VLC channel on port 1935",
+  "StartupRules": [
+    "Manual",
+    "Robot"
+  ],
+  "Language": "javascript",
+  "BroadcastMode": "verbose",
+  "TimeoutInSeconds": 600,
+  "CleanupOnCancel": true,
+  "WriteToLog": false,
+  "Parameters": {
+    "int": 10,
+    "double": 20.5,
+    "string": "twenty"
+  }
+}
