@@ -101,8 +101,9 @@ function _FaceDetect(data)
         misty.Set("faceInFOV", true, false);
         misty.ChangeLED(148, 0, 211);
         misty.DisplayImage("e_Joy2.jpg");
-        misty.Speak("<speak> Hello human, welcome to La Pipa! What's your name? </speak>", postPauseMs = 50);
-        //misty.Pause(2000);
+        //misty.Speak("<speak> Hello human, welcome to La Pipa! What's your name? </speak>", postPauseMs = 50);
+        misty.Speak("Hello human, welcome to La Pipa! What's your name?");
+        misty.Pause(2000);
 
         misty.AddReturnProperty("VoiceRecord", "Filename");
         misty.AddReturnProperty("VoiceRecord", "Success");
@@ -185,10 +186,10 @@ function _GetAudioFile(data) {
         );
   }
   
-async function _SendExternalRequest(data) {
+function _SendExternalRequest(data) {
 
     response = JSON.parse(data.Result.ResponseObject.Data);
-    await sleep(3000); // Async; waiting for API response
+    //await sleep(3000); // Async; waiting for API response
     
     misty.Debug("We got:" + JSON.stringify(response));
     

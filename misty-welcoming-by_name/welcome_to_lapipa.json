@@ -3,6 +3,7 @@
   "UniqueId": "e8132c75-1357-431e-b12d-42f8678088f7",
   "Description": "Welcome message, female voice.",
   "StartupRules": [
+    "Startup",
     "Manual",
     "Robot"
   ],
