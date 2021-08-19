@@ -1,0 +1,19 @@
+{
+  "Name": "welcome_to_lapipa_async",
+  "UniqueId": "c28e7a64-d236-44c7-b404-f3d2c3a0dda2",
+  "Description": "My skill is amazing!",
+  "StartupRules": [
+    "Manual",
+    "Robot"
+  ],
+  "Language": "javascript",
+  "BroadcastMode": "verbose",
+  "TimeoutInSeconds": 600,
+  "CleanupOnCancel": true,
+  "WriteToLog": false,
+  "Parameters": {
+    "int": 10,
+    "double": 20.5,
+    "string": "twenty"
+  }
+}
