@@ -1,8 +1,9 @@
 {
-  "Name": "welcome_to_lapipa_async",
+  "Name": "welcome_to_lapipa_v2",
   "UniqueId": "c28e7a64-d236-44c7-b404-f3d2c3a0dda2",
-  "Description": "My skill is amazing!",
+  "Description": "Welcoming skill, includes eye changes, new dialog & accent removal!",
   "StartupRules": [
+    "Startup",
     "Manual",
     "Robot"
   ],

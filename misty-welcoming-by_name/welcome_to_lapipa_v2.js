@@ -102,7 +102,7 @@ function _FaceDetect(data)
         misty.ChangeLED(148, 0, 211);
         misty.DisplayImage("e_Joy2.jpg");
         misty.Speak("Hello human, welcome to La Pipa! What's your name?");
-        misty.Pause(2000); // Waiting 2s since it doesn't wait for speak to end
+        misty.Pause(3500); // Waiting 3.5s since it doesn't wait for speak to end
 
         misty.AddReturnProperty("VoiceRecord", "Filename");
         misty.AddReturnProperty("VoiceRecord", "Success");
@@ -121,7 +121,8 @@ function _FaceDetect(data)
         misty.Set("faceInFOV", true, false);
         misty.ChangeLED(0, 0, 111);
         misty.DisplayImage("e_Joy2.jpg");
-        misty.Speak("Hi " + faceDetected + ", we've met before! How are you?");
+        misty.Speak("Hi " + faceDetected.normalize('NFD').replace(/[\u0300-\u036f]/g, '') 
+            + ", we've met before! How are you?"); // Normalize & replace remove accents
 
         // wave
         misty.MoveArmDegrees("both", -26, 100);
