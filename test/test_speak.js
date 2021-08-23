@@ -1,8 +1,7 @@
 misty.SetDefaultVolume(20);
 //misty.Speak("<speak> Hi! My name is Misty. </speak>");
 
-misty.Speak("<speak>" +
-    "How do you say <lang xml:lang=\"fr-FR\">Bonjour le monde</lang> in English?"+
-    "or <lang xml:lang=\"es\">Hola amigo</lang> in Spanish?"+
-    "</speak>");
+misty.Speak("Hi " + 
+    "Jesús Templado".normalize('NFD').replace(/[\u0300-\u036f]/g, '') + 
+    ", how are you?");
 misty.Pause(10000);
