@@ -1,6 +1,6 @@
 # MISTY SKILLS
 
-This code repository contains the skills developed by the [Bedrock](https://www.bedrockdbd.com/) Data Science team for Misty at [La Pipa](). Current working skills are:
+This code repository contains the skills developed by the [Bedrock](https://www.bedrockdbd.com/) Data Science team for Misty at [La Pipa](https://www.lapipa.io/). Current working skills are:
 
 1. Misty camera streaming skill via VLC Media player.
 
