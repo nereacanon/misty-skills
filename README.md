@@ -1,7 +1,9 @@
 # MISTY SKILLS
 
-This repo contains the skills for Misty being developed at La Pipa. Current efforts are directed towards two points:
+This code repository contains the skills developed by the [Bedrock](https://www.bedrockdbd.com/) Data Science team for Misty at [La Pipa](). Current working skills are:
 
-- External API integrations -> DialogFlow for chatbot capabilities
+1. Misty camera streaming skill via VLC Media player.
 
-- Microchip integration -> "culín de sidra"
+2. Misty basic welcoming skill based on already existing references.
+
+3. Original skill for welcoming based on person's name. Uses Google STT API on its backend to transcript the person's audio into text.
