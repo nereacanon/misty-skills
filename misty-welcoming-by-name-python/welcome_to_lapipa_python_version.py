@@ -4,5 +4,6 @@ from mistyPy.EventFilters import EventFilters
 
 misty.start_face_recognition()
 
+
 def registerFaceDetection ():
     misty.
